@@ -1,4 +1,5 @@
 def hello_t(array)
+<<<<<<< HEAD
   if block_given?
     i = 0
  
@@ -10,6 +11,12 @@ def hello_t(array)
     array
   else
     puts "Hey! No block was given!"
+=======
+  i = 0
+ 
+  while i < array.length
+    i 
+>>>>>>> c3b87ab8d7c9eec0a38bd9207772ded40f8b02b1
   end
 end
 
